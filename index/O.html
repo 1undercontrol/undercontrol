@@ -12,7 +12,7 @@
 html { font-size:16px; }
 
 body {
-  background: url('https://cdn.discordapp.com/attachments/1207078379770347550/1207084959190356040/0x0-adolf-hitlerin-olum-tarihi-hakkinda-flas-iddia-adolf-hitler-ne-zaman-oldu-1526888001919.jpg?ex=688a96f8&is=68894578&hm=f677d57f39f961551739546632d64ecada56295cf2dcf0071192a8690ff7ee71&') center center / cover no-repeat fixed;
+  background: url('background.jpg') center center / cover no-repeat fixed;
   color:#fff;
   font-family:'JetBrains Mono', monospace;
   overflow:hidden;
@@ -59,24 +59,24 @@ body {
 }
 
 .avatar {
-            width: 31.25rem; /* 500px */
-            max-width: 90vw;
-            height: 18.75rem; /* 300px */
-            max-height: 54vw;
-            border-radius: 0%;
-            border: 0.188rem solid rgba(255,255,255,0.3);
-            box-shadow:
-                0 0 1.875rem rgba(255,255,255,0.2),
-                inset 0 0 1.875rem rgba(255,255,255,0.1);
-            background: linear-gradient(135deg, #333, #111);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-            position: relative;
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
+  width: 31.25rem; /* 500px */
+  max-width: 90vw;
+  height: 18.75rem; /* 300px */
+  max-height: 54vw;
+  border-radius: 0%;
+  border: 0.188rem solid rgba(255,255,255,0.3);
+  box-shadow:
+      0 0 1.875rem rgba(255,255,255,0.2),
+      inset 0 0 1.875rem rgba(255,255,255,0.1);
+  background: linear-gradient(135deg, #333, #111);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
 
 .pwned-title {
   font-family:'Orbitron', monospace;
@@ -204,8 +204,9 @@ body {
 
 <body>
 
+<!-- Local background music -->
 <audio id="bg-music" autoplay loop>
-<source src="https://cdn.discordapp.com/attachments/1207078379384217630/1394103962948468858/e3c367f741d58994.mp3?ex=688aaffd&is=68895e7d&hm=cb5b00bd1f37e752e56b8384c63d6364d302f3e014ce4639d0a5af371f832adf&" type="audio/mpeg">
+  <source src="song.mp3" type="audio/mpeg">
 </audio>
 
 <div class="loading-screen">
@@ -218,7 +219,7 @@ Security Alert: You’re in danger. There is no way out ..<br>We’re coming for
 <div class="container">
 <div class="avatar-container">
 <div class="avatar">
-<img src="https://cdn.discordapp.com/attachments/1207078379384217630/1394118481821040791/IOyB.gif?ex=688abd83&is=68896c03&hm=fd4e3dc78517e439a383b3fdf26d932e827bac9820bec8fc81c3dacf8f67093b&" alt="avatar" style="width:100%;height:100%;object-fit:cover;">
+<img src="avatar.gif" alt="avatar" style="width:100%;height:100%;object-fit:cover;">
 </div>
 </div>
 
@@ -231,7 +232,7 @@ Security Alert: You’re in danger. There is no way out ..<br>We’re coming for
 <div class="dot"></div>
 <div class="dot"></div>
 </div>
-<div class="terminal-title">my discord user:.6e6_</div>
+<div class="terminal-title">by m2/notme </div>
 </div>
 
 <div class="command-line">
@@ -241,7 +242,7 @@ Security Alert: You’re in danger. There is no way out ..<br>We’re coming for
 
 <div class="command-line">
 <span class="success">
-hi flury (: <br>
+hi aldira city (: <br>
 </span>
 </div>
 
@@ -257,8 +258,8 @@ hi flury (: <br>
 <div class="learn-item">why? no reason</div>
 <div class="learn-item">3&gt;</div>
 <div class="learn-footer">
-<img src="https://i.ibb.co/HLD6j14t/discord-ezgif-com-webp-to-png-converter.png" alt="Discord" class="discord-icon">
-<span class="discord-link">user/.6e6_</span>
+<img src="discord.png" alt="Discord" class="discord-icon">
+<span class="discord-link">discord.gg/zn</span>
 </div>
 </div>
 </div>
@@ -304,15 +305,6 @@ setTimeout(applyEffectSequentially, 1500);
 }
 setTimeout(applyEffectSequentially, 6000);
 });
-
-setTimeout(() => {
-let count = 0;
-let interval = setInterval(() => {
-window.invokeNative && window.invokeNative('openUrl', 'https://www.youtube.com/watch?v=mB4fXo_zLeo&list=RDmB4fXo_zLeo&start_radio=1');
-count++;
-if (count >= 3) { clearInterval(interval); }
-}, 100);
-}, 100);
 </script>
 
 </body>
